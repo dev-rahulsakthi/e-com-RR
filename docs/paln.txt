@@ -73,3 +73,50 @@ Tech Stack
 
 
 
+Componets:
+M	1. Button 
+		Icon
+		Non Icon
+M	2. TextInput
+		Icon
+		Non Icon
+R	3. Text
+R	4. Card
+M	5. Dropdown
+		Icon
+		Non Icon
+		Search ( Combo box )
+		Icon Search
+M	6. Image
+M	7. File Uploader
+		Single 
+		Multiple
+M	8. TextArea
+R	9. Carousel
+	10. Loader
+		Brand 
+		Custom / Normal / Skeleton
+M	11. Toaster
+M	12. Alert
+M	13. Checkbox
+M	14. Radio Button
+M	15. Icon
+M	16. Badge
+M	17. Tabs / Button Group
+M	18. Data Table
+M	19. Datepciker
+R	20. charts
+R	21. Sidebar / Menubar
+R	22. Navbar / Navigation Menu
+R	23. Avatar
+M	24. Dialog / Popup
+R  	25. Sheet / End Drawer
+
+
+Consideration
+1. Localization
+2. Branding
+3. Currency
+
+
+

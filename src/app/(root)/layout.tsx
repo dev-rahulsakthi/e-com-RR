@@ -1,23 +1,19 @@
 import * as React from "react";
 import "./globals.css";
-import { AppSidebar } from "@/src/app/ui/components/app-sidebar";
-import { ThemeProvider } from "@/src/app/ui/components/theme-provider";
-import { Separator } from "@/src/app/ui/components/ui/separator";
+import { AppSidebar } from "@/src/app/components/app-sidebar";
+import { ThemeProvider } from "@/src/app/components/theme-provider";
+import { Separator } from "@/src/app/components/ui/separator";
 import {
   SidebarInset,
   SidebarProvider,
   SidebarTrigger,
-} from "@/src/app/ui/components/ui/sidebar";
-import { Toaster } from "@/src/app/ui/components/ui/sonner";
-import { cn } from "@/src/app/ui/lib/utils";
+} from "@/src/app/components/ui/sidebar";
+import { Toaster } from "@/src/app/components/ui/sonner";
+import { cn } from "@/src/app/lib/utils";
 import { Inter as FontSans } from "next/font/google";
-import { Button } from "@/src/app/ui/components/ui/button";
-import {
-  decrypt,
-  isNotEmpty,
-} from "../../utils/common/common-function/common-function";
+import { Button } from "@/src/app/components/ui/button";
+import {isNotEmpty,} from "../../utils/common/common-function/common-function";
 import { cookies } from "next/headers";
-import { getCookie } from "../../utils/common/common-function/cookies-function";
 import { BreadcrumbNav } from "../components/customized/breadcrum-nav";
 
 const fontSans = FontSans({
@@ -88,23 +84,8 @@ export default async function RootLayout({
     return <GoToLogin />;
   }
 
-  const encyptedData = await getCookie("userDetails");
-  let jsonParsedData = JSON.parse(encyptedData);
-
-  let userData = {
-    name: decrypt(jsonParsedData.userName),
-    emailId: decrypt(jsonParsedData.emailID),
-  };
 
   let menuList = (await cookies()).get("menu")?.value ?? [];
-
-  // Fix the condition logic - it was backwards
-  if (isNotEmpty(userData.name) || isNotEmpty(userData.emailId)) {
-    userData = mockUser;
-  }
-  if (isNotEmpty(menuList)) {
-    menuList = mockMenuList;
-  }
 
   return (
     // REMOVED: <html> and <body> tags

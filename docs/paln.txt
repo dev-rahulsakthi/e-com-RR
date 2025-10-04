@@ -15,3 +15,61 @@ RR E COM
 
 plan
 1. login only for admin user
+
+
+
+Multi Seller and Vendor
+
+1. Roles 
+	Admin
+		- Seller
+	User 
+		- Buyer
+
+2. Pages
+	- Admin
+		- Client
+			- Client ( CRUD ) 
+		- Product
+			- Add Product( CRUD )
+			- Select Delivery partner 
+			- Add Deliver partner based registration ( CRUD )
+			- region based sell system ( need to discuss )
+			- Product Dashboard
+		- Orders
+			- placed orders
+				filter ( proceed, shipped, completed )
+			- order history 
+				- charts
+				- filter ( respective date ,monthly, yearly )
+ 
+	- User 
+		- Sign Up and Sign Up
+			- Mobile, Email, Oauth ( google, microsoft, facebook ), password 
+		- Dashboard
+			- Products and Brand based filter system
+		- cart
+			- Product ( CRUD )
+		- Payment
+			- razor pay
+						
+			
+
+3. Additional Features
+	- Email Notify
+		- Order status ( when order is placed send mail, when order status changes send mail ) - User, Admin
+
+
+
+Tech Stack
+	- UI 
+		- Next JS
+			- shadcn
+	- API
+		- Backend
+			- Native Next js
+	- Database
+		- PostgresSQL
+
+
+

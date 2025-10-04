@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { verifyToken } from './library/auth';
+import { verifyToken } from './src/auth/auth';
 
 
 // Only API public paths (login API)

@@ -2,10 +2,10 @@
 import React, { useCallback, useState, useEffect } from 'react'
 import { useDropzone } from 'react-dropzone'
 import { X, UploadCloud, File, Download, FileText, Sheet, Image, FileArchive, Table } from 'lucide-react'
-import { Button } from '@/src/app/ui/components/ui/button'
-import { Card, CardContent } from '@/src/app/ui/components/ui/card'
-import { Progress } from '@/src/app/ui/components/ui/progress'
-import { Label } from '@/src/app/ui/components/ui/label'
+import { Button } from '@/src/app/components/ui/button'
+import { Card, CardContent } from '@/src/app/components/ui/card'
+import { Progress } from '@/src/app/components/ui/progress'
+import { Label } from '@/src/app/components/ui/label'
 import { toast } from 'sonner'
 
 interface FileUploadProps {

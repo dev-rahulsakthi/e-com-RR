@@ -6,8 +6,8 @@ import {
   DialogHeader,
   DialogTitle,
   DialogFooter,
-} from '@/src/app/ui/components/ui/dialog';
-import { Button } from '@/src/app/ui/components/ui/button';
+} from '@/src/app/components/ui/dialog';
+import { Button } from '@/src/app/components/ui/button';
 
 interface ConfirmationProps {
   open: boolean;

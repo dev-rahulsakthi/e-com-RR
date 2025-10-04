@@ -3,20 +3,20 @@
 import * as React from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
 
-import { cn } from "@/src/app/ui/lib/utils";
-import { Button } from "@/src/app/ui/components/ui/button";
+import { cn } from "@/src/app/lib/utils";
+import { Button } from "@/src/app/components/ui/button";
 import {
   Command,
   CommandEmpty,
   CommandGroup,
   CommandInput,
   CommandItem,
-} from "@/src/app/ui/components/ui/command";
+} from "@/src/app/components/ui/command";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/src/app/ui/components/ui/popover";
+} from "@/src/app/components/ui/popover";
 
 const frameworks = [
   {

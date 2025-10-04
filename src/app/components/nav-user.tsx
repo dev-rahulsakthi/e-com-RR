@@ -6,7 +6,7 @@ import {
   Avatar,
   AvatarFallback,
   AvatarImage,
-} from "@/src/app/ui/components/ui/avatar";
+} from "@/src/app/components/ui/avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,14 +14,14 @@ import {
   DropdownMenuLabel,
   DropdownMenuSeparator,
   DropdownMenuTrigger,
-} from "@/src/app/ui/components/ui/dropdown-menu";
+} from "@/src/app/components/ui/dropdown-menu";
 import {
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
   useSidebar,
-} from "@/src/app/ui/components/ui/sidebar";
-import Logout from "@/src/app/ui/login/components/Logout";
+} from "@/src/app/components/ui/sidebar";
+import Logout from "@/src/app/login/components/Logout";
 
 interface NavUserProps {
   user: {

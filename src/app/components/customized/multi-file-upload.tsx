@@ -11,9 +11,9 @@ import {
   FileArchive,
   Table,
 } from "lucide-react";
-import { Button } from "@/src/app/ui/components/ui/button";
-import { Card, CardContent } from "@/src/app/ui/components/ui/card";
-import { Progress } from "@/src/app/ui/components/ui/progress";
+import { Button } from "@/src/app/components/ui/button";
+import { Card, CardContent } from "@/src/app/components/ui/card";
+import { Progress } from "@/src/app/components/ui/progress";
 import { toast } from "sonner";
 
 type MultiFileUploadProps = {

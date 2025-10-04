@@ -10,15 +10,15 @@ import {
   WandSparkles,
 } from "lucide-react";
 
-import { cn } from "@/src/app/ui/lib/utils";
-import { Separator } from "@/src/app/ui/components/ui/separator";
-import { Button } from "@/src/app/ui/components/ui/button";
-import { Badge } from "@/src/app/ui/components/ui/badge";
+import { cn } from "@/src/app/lib/utils";
+import { Separator } from "@/src/app/components/ui/separator";
+import { Button } from "@/src/app/components/ui/button";
+import { Badge } from "@/src/app/components/ui/badge";
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/src/app/ui/components/ui/popover";
+} from "@/src/app/components/ui/popover";
 import {
   Command,
   CommandEmpty,
@@ -27,7 +27,7 @@ import {
   CommandItem,
   CommandList,
   CommandSeparator,
-} from "@/src/app/ui/components/ui/command";
+} from "@/src/app/components/ui/command";
 import { serialize } from "v8";
 
 /**

@@ -1,4 +1,4 @@
-import { cn } from "@/src/app/ui/lib/utils";
+import { cn } from "@/src/app/lib/utils";
 import React from "react";
 const SpinnerCircle4 = () => (
   <div className="w-full flex justify-center">

@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { Check, ChevronsUpDown } from "lucide-react";
-import { cn } from "@/src/app/ui/lib/utils";
+import { cn } from "@/src/app/lib/utils";
 import {
   Command,
   CommandEmpty,

@@ -1,7 +1,7 @@
 import axios from "axios";
 import { cookies } from "next/headers";
 import { isNotEmpty } from "../common-function/common-function";
-import { Labels } from "@/utils/constants";
+import { Labels } from "../../constants";
 
 export default class Networking {
   // JSON POST

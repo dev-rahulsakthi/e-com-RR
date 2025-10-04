@@ -6,7 +6,7 @@ import {
   DialogContent,
   DialogDescription,
   DialogTitle,
-} from "@/src/app/ui/components/ui/dialog";
+} from "@/src/app/components/ui/dialog";
 import progressImage from "@/src/app/assets/images/gif/progress.gif";
 import Image from "next/image";
 

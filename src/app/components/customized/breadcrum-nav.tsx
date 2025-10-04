@@ -7,7 +7,7 @@ import {
   BreadcrumbLink,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "@/src/app/ui/components/ui/breadcrumb"
+} from "@/src/app/components/ui/breadcrumb"
 import { usePathname } from "next/navigation"
 import React from "react"
 

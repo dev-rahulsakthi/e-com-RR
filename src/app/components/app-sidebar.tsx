@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { NavMain } from "@/src/app/ui/components/nav-main";
-import { NavUser } from "@/src/app/ui/components/nav-user";
+import { NavMain } from "@/src/app/components/nav-main";
+import { NavUser } from "@/src/app/components/nav-user";
 import { ModeToggle } from "./mode-toggle";
 
 import {
@@ -12,7 +12,7 @@ import {
   SidebarHeader,
   SidebarRail,
   useSidebar,
-} from "@/src/app/ui/components/ui/sidebar";
+} from "@/src/app/components/ui/sidebar";
 
 // Raw menu type
 interface RawMenuItem {

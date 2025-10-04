@@ -4,8 +4,8 @@ import {
   DialogContent,
   DialogHeader,
   DialogTitle,
-} from "@/src/app/ui/components/ui/dialog";
-import { Button } from "@/src/app/ui/components/ui/button";
+} from "@/src/app/components/ui/dialog";
+import { Button } from "@/src/app/components/ui/button";
 import { X } from "lucide-react";
 
 interface PopupProps {

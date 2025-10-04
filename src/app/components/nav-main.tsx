@@ -13,7 +13,7 @@ import {
   ShieldEllipsis,
   Folder,
 } from "lucide-react";
-import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/src/app/ui/components/ui/collapsible";
+import { Collapsible, CollapsibleTrigger, CollapsibleContent } from "@/src/app/components/ui/collapsible";
 import { useMenuStore } from "@/store";
 
 interface NavItem {

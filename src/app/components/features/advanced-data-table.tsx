@@ -19,11 +19,11 @@ import {
   TableHead,
   TableHeader,
   TableRow,
-} from "@/src/app/ui/components/ui/table";
+} from "@/src/app/components/ui/table";
 import { useState, useEffect, useMemo } from "react";
-import { Input } from "@/src/app/ui/components/ui/input";
-import { Button } from "@/src/app/ui/components/ui/button";
-import { Checkbox } from "@/src/app/ui/components/ui/checkbox";
+import { Input } from "@/src/app/components/ui/input";
+import { Button } from "@/src/app/components/ui/button";
+import { Checkbox } from "@/src/app/components/ui/checkbox";
 import {
   ChevronFirst,
   ChevronLast,
@@ -48,7 +48,7 @@ import {
   DropdownMenuContent,
   DropdownMenuTrigger,
   DropdownMenuCheckboxItem,
-} from "@/src/app/ui/components/ui/dropdown-menu";
+} from "@/src/app/components/ui/dropdown-menu";
 
 // Define proper types for column meta
 interface ColumnMeta {

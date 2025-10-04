@@ -1,4 +1,4 @@
-import { Tabs, TabsList, TabsTrigger } from "@/src/app/ui/components/ui/tabs";
+import { Tabs, TabsList, TabsTrigger } from "@/src/app/components/ui/tabs";
 import { useState } from "react";
 
 interface TabsProps {

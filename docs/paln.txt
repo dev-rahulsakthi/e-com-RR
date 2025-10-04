@@ -1,0 +1,17 @@
+RR E COM
+
+1. Struture
+    src/app/middleware
+    src/app/assets
+    src/app/ui
+    src/app/[root]
+    src/app/components
+    src/app/hooks
+    src/app/utils
+    src/app/utils/comman
+    src/app/utils/constants
+    src/app/utils/db
+    src/app/utils/api-action
+
+plan
+1. login only for admin user
